@@ -5,6 +5,8 @@ Logs
 products/mxberryplus/+mxberry/+pcalcalt/javaclasspath.txt
 products/mxberryplus/+mxberry/+pcalcalt/pathdef.txt
 products/mxberryplus/+mxberry/+db/+inmem/+storage/@DiskBasedRelationStorage/*/*.mat
+products/mxberry-core-doxygen-garbage/*
+products/mxberry-core-doxygen-prep/*
 /install/matlab_cmwin_output.log
 /mxberry-core-*.bat
 *.asv

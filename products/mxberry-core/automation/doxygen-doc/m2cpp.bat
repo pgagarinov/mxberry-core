@@ -1,1 +1,0 @@
-@"perl" %~dp0\m2cpp.pl %1

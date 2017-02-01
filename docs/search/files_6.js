@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['generatetypeinfostruct_2em',['generatetypeinfostruct.m',['../_09legacy_2generatetypeinfostruct_8m.html',1,'']]],
-  ['generatetypeinfostruct_2em',['generatetypeinfostruct.m',['../_0D_nested_array_type_2generatetypeinfostruct_8m.html',1,'']]],
-  ['generatetypesizeinfostruct_2em',['generatetypesizeinfostruct.m',['../generatetypesizeinfostruct_8m.html',1,'']]],
-  ['generatetypesizeinfostruct_2em',['generatetypesizeinfostruct.m',['../_09legacy_2generatetypesizeinfostruct_8m.html',1,'']]],
+  ['generatetypeinfostruct_2em',['generatetypeinfostruct.m',['../_09legacy_2generatetypeinfostruct_8m.html',1,'(Global Namespace)'],['../_0D_nested_array_type_2generatetypeinfostruct_8m.html',1,'(Global Namespace)']]],
+  ['generatetypesizeinfostruct_2em',['generatetypesizeinfostruct.m',['../_09legacy_2generatetypesizeinfostruct_8m.html',1,'(Global Namespace)'],['../generatetypesizeinfostruct_8m.html',1,'(Global Namespace)']]],
   ['genfilename_2em',['genfilename.m',['../genfilename_8m.html',1,'']]],
-  ['genteststruct_2em',['genteststruct.m',['../_09conf_2_09test_2genteststruct_8m.html',1,'']]],
-  ['genteststruct_2em',['genteststruct.m',['../_09core_2genteststruct_8m.html',1,'']]],
-  ['genteststruct_2em',['genteststruct.m',['../_09xml_2_09test_2genteststruct_8m.html',1,'']]],
+  ['genteststruct_2em',['genteststruct.m',['../_09conf_2_09test_2genteststruct_8m.html',1,'(Global Namespace)'],['../_09core_2genteststruct_8m.html',1,'(Global Namespace)'],['../_09xml_2_09test_2genteststruct_8m.html',1,'(Global Namespace)']]],
   ['getcallername_2em',['getcallername.m',['../getcallername_8m.html',1,'']]],
   ['getcallernameext_2em',['getcallernameext.m',['../getcallernameext_8m.html',1,'']]],
   ['getfileinfo_2em',['getfileinfo.m',['../getfileinfo_8m.html',1,'']]],

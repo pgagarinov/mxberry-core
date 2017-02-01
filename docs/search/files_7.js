@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['handleobjectcloner_2em',['HandleObjectCloner.m',['../_09test_2_handle_object_cloner_8m.html',1,'']]],
-  ['handleobjectcloner_2em',['HandleObjectCloner.m',['../_0D_handle_object_cloner_2_handle_object_cloner_8m.html',1,'']]],
+  ['handleobjectcloner_2em',['HandleObjectCloner.m',['../_09test_2_handle_object_cloner_8m.html',1,'(Global Namespace)'],['../_0D_handle_object_cloner_2_handle_object_cloner_8m.html',1,'(Global Namespace)']]],
   ['handleobjectcloneradv_2em',['HandleObjectClonerAdv.m',['../_handle_object_cloner_adv_8m.html',1,'']]],
   ['handleobjectclonertc_2em',['HandleObjectClonerTC.m',['../_handle_object_cloner_t_c_8m.html',1,'']]],
   ['handleobjectclonertrickycount_2em',['HandleObjectClonerTrickyCount.m',['../_handle_object_cloner_tricky_count_8m.html',1,'']]],

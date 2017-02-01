@@ -5,10 +5,8 @@ var searchData=
   ['valuebox',['ValueBox',['../classmxberry_1_1core_1_1cont_1_1_value_box.html',1,'mxberry::core::cont']]],
   ['valuebox_2em',['ValueBox.m',['../_value_box_8m.html',1,'']]],
   ['values',['values',['../classmxberry_1_1core_1_1cont_1_1_map_auto_key.html#a8a24d4759289123c66565e922dbf813b',1,'mxberry::core::cont::MapAutoKey']]],
-  ['versionedconfrepomanager',['VersionedConfRepoManager',['../classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html',1,'mxberry::conf']]],
-  ['versionedconfrepomanager',['VersionedConfRepoManager',['../classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html#a83da451d06a400da6736e3d159e7336c',1,'mxberry::conf::VersionedConfRepoManager']]],
+  ['versionedconfrepomanager',['VersionedConfRepoManager',['../classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html',1,'mxberry::conf::VersionedConfRepoManager'],['../classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html#a83da451d06a400da6736e3d159e7336c',1,'mxberry::conf::VersionedConfRepoManager::VersionedConfRepoManager()']]],
   ['versionedconfrepomanager_2em',['VersionedConfRepoManager.m',['../_versioned_conf_repo_manager_8m.html',1,'']]],
-  ['versionedconfrepomanagertest',['VersionedConfRepoManagerTest',['../classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html',1,'mxberry::conf::test']]],
-  ['versionedconfrepomanagertest',['VersionedConfRepoManagerTest',['../classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html#a5eacb788cb812078ee5bac594b122c9e',1,'mxberry::conf::test::VersionedConfRepoManagerTest']]],
+  ['versionedconfrepomanagertest',['VersionedConfRepoManagerTest',['../classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html',1,'mxberry::conf::test::VersionedConfRepoManagerTest'],['../classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html#a5eacb788cb812078ee5bac594b122c9e',1,'mxberry::conf::test::VersionedConfRepoManagerTest::VersionedConfRepoManagerTest()']]],
   ['versionedconfrepomanagertest_2em',['VersionedConfRepoManagerTest.m',['../_versioned_conf_repo_manager_test_8m.html',1,'']]]
 ];

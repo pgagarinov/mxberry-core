@@ -144,6 +144,7 @@ else
     outStr=mxberry.core.string.catwithsep(lineStrList,sprintf('\n'));
 end
 %%
+
 function lineStrList=showCellInternal(inpCMat,nSpaces,fNumPrint,...
     fCharPrint,fCellPrint,isAsExpression,nMaxShownArrayElems)
 inpCVec=inpCMat(:);
@@ -223,6 +224,7 @@ else
         'minSepCount',nSpaces,'UniformOutput',false);
 end
 %%
+
 function resStr=other2str(inpVal)
     valSizeVec=size(inpVal);
     valNDims=ndims(inpVal);
@@ -291,6 +293,7 @@ else
     end
 end
 %%
+
 function resStr=getEmptyStr(x)
 sizeVec=size(x);
 resStr=[class(x),'.empty(',sprintf('%d,',sizeVec(1:end-1)),...

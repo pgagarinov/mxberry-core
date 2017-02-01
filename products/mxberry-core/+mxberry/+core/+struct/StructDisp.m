@@ -375,6 +375,7 @@ classdef StructDisp < handle
         end
         
         %% FUNCTION: recFieldPrint
+
         function [listStr,...
                 leavesPathCVec,leavesRowIndCVec,leavesColIndCVec] = ...
                 recFieldPrint(Structure, indent, printValues,...
@@ -1093,6 +1094,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Inner functions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [varCell,rowIndVec,colIndVec]=formCellOfString(strIndent,fieldValue,...
     maxFieldLength,filler,FILLER_SYMBOL_CODE,DASH_SYMBOL_CODE)
 isnVarCellOnly=nargout>1;

@@ -1,0 +1,10 @@
+<map id="mxberry::core::obj::StaticPropStorage" name="mxberry::core::obj::StaticPropStorage">
+<area shape="rect" id="node3" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_static_prop_storage.html" title="mxberry::core::obj\l::test::StaticPropStorage" alt="" coords="313,5,479,47"/>
+<area shape="rect" id="node4" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_static_prop_storage2.html" title="mxberry::core::obj\l::test::StaticPropStorage2" alt="" coords="309,71,483,112"/>
+<area shape="rect" id="node5" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_equal_call_counter.html" title="mxberry::core::test\l::aux::EqualCallCounter" alt="" coords="317,136,475,177"/>
+<area shape="rect" id="node6" href="$classmxberry_1_1io_1_1_tmp_data_manager.html" title="TMPDATAMANAGER implements a basic functionality for managing temporary data folders. " alt="" coords="297,202,495,229"/>
+<area shape="rect" id="node8" href="$classmxberry_1_1java_1_1_a_java_static_path_mgr.html" title="mxberry::java::AJavaStatic\lPathMgr" alt="" coords="309,253,483,295"/>
+<area shape="rect" id="node10" href="$classmxberry_1_1log_1_1_data_logger.html" title="DATALOGGER allows to log performance of functions and also save contents of their local variables int..." alt="" coords="312,319,480,346"/>
+<area shape="rect" id="node7" href="$classmxberry_1_1test_1_1_tmp_data_manager.html" title="TMPDATAMANAGER provides a basic functionality for managing temporary data folders, root folder name is determined automatically. " alt="" coords="543,202,752,229"/>
+<area shape="rect" id="node9" href="$classmxberry_1_1selfmnt_1_1_java_static_path_mgr.html" title="mxberry::selfmnt::JavaStatic\lPathMgr" alt="" coords="554,253,741,295"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="mxberry::conf::ConfRepoManager" name="mxberry::conf::ConfRepoManager">
+<area shape="rect" id="node2" href="$classmxberry_1_1conf_1_1_conf_repo_manager_any_storage.html" title="CONFREPOMANAGER provides a functionality for storing, reading copying and very simplistic version tra..." alt="" coords="5,169,220,211"/>
+<area shape="rect" id="node3" href="$classmxberry_1_1core_1_1obj_1_1_handle_object_cloner.html" title="HANDLEOBJECTCLONER provides some simple functionality for clonable objects. " alt="" coords="81,80,227,121"/>
+<area shape="rect" id="node5" href="$classmxberry_1_1core_1_1obj_1_1_reflection_helper.html" title="REFLECTIONHELPER &#45; serves a single purpose: retrieving a name of currently constructed object..." alt="" coords="244,169,371,211"/>
+</map>

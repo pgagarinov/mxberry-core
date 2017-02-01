@@ -1,0 +1,13 @@
+<map id="mxberry::core::struct::StructChangeTracker" name="mxberry::core::struct::StructChangeTracker">
+<area shape="rect" id="node4" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_adv.html" title="mxberry::conf::test\l::StructChangeTrackerAdv" alt="" coords="544,5,717,47"/>
+<area shape="rect" id="node5" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_negative.html" title="mxberry::conf::test\l::StructChangeTrackerNegative" alt="" coords="530,71,731,112"/>
+<area shape="rect" id="node6" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_no_patches.html" title="mxberry::conf::test\l::StructChangeTrackerNoPatches" alt="" coords="523,136,739,177"/>
+<area shape="rect" id="node7" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_test.html" title="mxberry::conf::test\l::StructChangeTrackerTest" alt="" coords="542,201,719,243"/>
+<area shape="rect" id="node11" href="$classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html" title="VERSIONEDCONFREPOMANAGER is a simple extension of AdaptiveConfRepoManager that provides an ability to..." alt="" coords="547,267,714,308"/>
+<area shape="rect" id="node12" href="$classmxberry_1_1core_1_1struct_1_1test_1_1_struct_change_tracker_test.html" title="mxberry::core::struct\l::test::StructChangeTrackerTest" alt="" coords="527,332,734,373"/>
+<area shape="rect" id="node13" href="$classmxberry_1_1test_1_1conf_1_1_conf_patch_repo.html" title="mxberry::test::conf\l::ConfPatchRepo" alt="" coords="565,397,696,439"/>
+<area shape="rect" id="node2" href="$classmxberry_1_1core_1_1struct_1_1_a_struct_change_tracker.html" title="mxberry::core::struct\l::AStructChangeTracker" alt="" coords="113,201,275,243"/>
+<area shape="rect" id="node8" href="$classmxberry_1_1conf_1_1test_1_1_adp_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::AdpConfRepoMgrUpd" alt="" coords="819,136,973,177"/>
+<area shape="rect" id="node9" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::ConfRepoMgrUpd" alt="" coords="831,201,961,243"/>
+<area shape="rect" id="node10" href="$classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html" title="mxberry::conf::test\l::VersionedConfRepoManagerTest" alt="" coords="787,267,1005,308"/>
+</map>

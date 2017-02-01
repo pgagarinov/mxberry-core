@@ -1,0 +1,7 @@
+<map id="mxberry::conf::test::StructChangeTrackerTest" name="mxberry::conf::test::StructChangeTrackerTest">
+<area shape="rect" id="node5" href="$classmxberry_1_1conf_1_1test_1_1_adp_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::AdpConfRepoMgrUpd" alt="" coords="780,5,935,47"/>
+<area shape="rect" id="node6" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::ConfRepoMgrUpd" alt="" coords="792,71,923,112"/>
+<area shape="rect" id="node7" href="$classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html" title="mxberry::conf::test\l::VersionedConfRepoManagerTest" alt="" coords="748,136,967,177"/>
+<area shape="rect" id="node2" href="$classmxberry_1_1core_1_1struct_1_1_struct_change_tracker.html" title="STRUCTCHANGETRACKER keeps a list of structure patches and provide tools for applying them to any arbi..." alt="" coords="323,71,475,112"/>
+<area shape="rect" id="node3" href="$classmxberry_1_1core_1_1struct_1_1_a_struct_change_tracker.html" title="mxberry::core::struct\l::AStructChangeTracker" alt="" coords="113,71,275,112"/>
+</map>

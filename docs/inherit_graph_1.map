@@ -1,0 +1,65 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_manager_factory.html" title="mxberry::conf::test\l::ConfRepoManagerFactory" alt="" coords="131,65,311,107"/>
+<area shape="rect" id="node3" href="$classmxberry_1_1core_1_1cell_1_1test_1_1_some_class.html" title="mxberry::core::cell\l::test::SomeClass" alt="" coords="156,131,287,172"/>
+<area shape="rect" id="node4" href="$classmxberry_1_1core_1_1cont_1_1_i_generic_branched_storage.html" title="mxberry::core::cont\l::IGenericBranchedStorage" alt="" coords="132,196,311,237"/>
+<area shape="rect" id="node7" href="$classmxberry_1_1core_1_1cont_1_1_map_auto_key.html" title="mxberry::core::cont\l::MapAutoKey" alt="" coords="154,261,289,303"/>
+<area shape="rect" id="node8" href="$classmxberry_1_1core_1_1cont_1_1_value_box.html" title="mxberry::core::cont\l::ValueBox" alt="" coords="154,327,289,368"/>
+<area shape="rect" id="node9" href="$classmxberry_1_1core_1_1obj_1_1_handle_object_cloner.html" title="HANDLEOBJECTCLONER provides some simple functionality for clonable objects. " alt="" coords="149,392,294,433"/>
+<area shape="rect" id="node31" href="$classmxberry_1_1core_1_1obj_1_1_reflection_helper.html" title="REFLECTIONHELPER &#45; serves a single purpose: retrieving a name of currently constructed object..." alt="" coords="425,391,552,432"/>
+<area shape="rect" id="node32" href="$classmxberry_1_1core_1_1obj_1_1_static_prop_storage.html" title="mxberry::core::obj\l::StaticPropStorage" alt="" coords="153,611,289,652"/>
+<area shape="rect" id="node41" href="$classmxberry_1_1core_1_1struct_1_1_a_struct_change_tracker.html" title="mxberry::core::struct\l::AStructChangeTracker" alt="" coords="675,449,836,491"/>
+<area shape="rect" id="node50" href="$classmxberry_1_1core_1_1struct_1_1_struct_disp.html" title="This class is responsible for displaying structure outline. " alt="" coords="150,676,293,717"/>
+<area shape="rect" id="node51" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_compare_redirect_appliance.html" title="mxberry::core::test\l::aux::CompareRedirectAppliance" alt="" coords="113,807,329,848"/>
+<area shape="rect" id="node54" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_comp_entity.html" title="mxberry::core::test\l::aux::CompEntity" alt="" coords="155,741,287,783"/>
+<area shape="rect" id="node56" href="$classmxberry_1_1core_1_1type_1_1test_1_1_test_handle_type.html" title="mxberry::core::type\l::test::TestHandleType" alt="" coords="145,872,298,913"/>
+<area shape="rect" id="node57" href="$classmxberry_1_1dev_1_1prof_1_1_profile_info.html" title="PROFILEINFO contains profiling info obtaining during exectution of some code. " alt="" coords="159,937,284,979"/>
+<area shape="rect" id="node59" href="$classmxberry_1_1dev_1_1prof_1_1_profile_manager.html" title="mxberry::dev::prof\l::ProfileManager" alt="" coords="159,1003,284,1044"/>
+<area shape="rect" id="node60" href="$classmxberry_1_1log_1_1_email_logger.html" title="mxberry::log::EmailLogger" alt="" coords="134,1069,309,1095"/>
+<area shape="rect" id="node61" href="$classmxberry_1_1log_1_1log4j_1_1_log4j_configurator.html" title="LOG4JCONFIGURATOR simplifies log4j configuration, especially when Parallel Computing Toolbox is used..." alt="" coords="156,1120,287,1161"/>
+<area shape="rect" id="node64" href="$classmxberry_1_1unittest_1_1_m_unit_remote_test_runner.html" title="mxberry::unittest::\lMUnitRemoteTestRunner" alt="" coords="138,1185,305,1227"/>
+<area shape="rect" id="node5" href="$classmxberry_1_1core_1_1cont_1_1ondisk_1_1_i_on_disk_branched_storage.html" title="mxberry::core::cont\l::ondisk::IOnDiskBranchedStorage" alt="" coords="377,153,600,195"/>
+<area shape="rect" id="node6" href="$classmxberry_1_1core_1_1cont_1_1ondisk_1_1_a_hash_map.html" title="DISKBASEDHASHMAP represents a hash map for the arbitrary objects on disk with a high level of persist..." alt="" coords="685,113,825,155"/>
+<area shape="rect" id="node10" href="$classmxberry_1_1conf_1_1_conf_repo_manager_any_storage.html" title="CONFREPOMANAGER provides a functionality for storing, reading copying and very simplistic version tra..." alt="" coords="381,325,596,367"/>
+<area shape="rect" id="node28" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_handle_object_cloner.html" title="mxberry::core::obj\l::test::HandleObjectCloner" alt="" coords="401,260,576,301"/>
+<area shape="rect" id="node11" href="$classmxberry_1_1conf_1_1_conf_repo_manager.html" title="mxberry::conf::ConfRepoManager" alt="" coords="648,391,863,418"/>
+<area shape="rect" id="node27" href="$classmxberry_1_1conf_1_1_conf_repo_mgr_in_memory.html" title="mxberry::conf::ConfRepoMgr\lInMemory" alt="" coords="662,325,849,367"/>
+<area shape="rect" id="node12" href="$classmxberry_1_1conf_1_1_adaptive_conf_repo_manager.html" title="UDAPTIVECONFREPOMANAGER is an extension of the plain ConfRepoManager that introduces a separation bet..." alt="" coords="938,235,1122,276"/>
+<area shape="rect" id="node22" href="$classmxberry_1_1conf_1_1_conf_repo_manager_upd.html" title="CONFREPOMANAGERUPD is a simplistic extension of ConfRepoManager that updates configuration upon selec..." alt="" coords="911,333,1149,359"/>
+<area shape="rect" id="node24" href="$classmxberry_1_1conf_1_1test_1_1_configuration_r_m_test.html" title="mxberry::conf::test\l::ConfigurationRMTest" alt="" coords="955,384,1105,425"/>
+<area shape="rect" id="node25" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_mgr_adv.html" title="mxberry::conf::test\l::ConfRepoMgrAdv" alt="" coords="965,449,1095,491"/>
+<area shape="rect" id="node26" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_mgr_nan_ver.html" title="mxberry::conf::test\l::ConfRepoMgrNanVer" alt="" coords="955,169,1105,211"/>
+<area shape="rect" id="node13" href="$classmxberry_1_1conf_1_1_adaptive_conf_repo_manager_upd.html" title="CONFREPOMANAGERUPD is a simplistic extension of ConfRepoManager that updates configuration upon selec..." alt="" coords="1213,201,1397,243"/>
+<area shape="rect" id="node16" href="$classmxberry_1_1conf_1_1test_1_1_adaptive_conf_repo_manager_test.html" title="mxberry::conf::test\l::AdaptiveConfRepoManagerTest" alt="" coords="1200,267,1411,308"/>
+<area shape="rect" id="node17" href="$classmxberry_1_1conf_1_1test_1_1_adaptive_conf_repo_mgr_nan_ver.html" title="mxberry::conf::test\l::AdaptiveConfRepoMgrNanVer" alt="" coords="1205,5,1405,47"/>
+<area shape="rect" id="node18" href="$classmxberry_1_1conf_1_1test_1_1_adp_conf_repo_mgr.html" title="mxberry::conf::test\l::AdpConfRepoMgr" alt="" coords="1240,71,1371,112"/>
+<area shape="rect" id="node19" href="$classmxberry_1_1conf_1_1test_1_1_adp_conf_repo_mgr_negative.html" title="mxberry::conf::test\l::AdpConfRepoMgrNegative" alt="" coords="1215,136,1395,177"/>
+<area shape="rect" id="node20" href="$classmxberry_1_1conf_1_1_versioned_conf_repo_manager.html" title="VERSIONEDCONFREPOMANAGER is a simple extension of AdaptiveConfRepoManager that provides an ability to..." alt="" coords="1222,449,1389,491"/>
+<area shape="rect" id="node14" href="$classmxberry_1_1conf_1_1test_1_1_adp_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::AdpConfRepoMgrUpd" alt="" coords="1493,292,1648,333"/>
+<area shape="rect" id="node15" href="$classmxberry_1_1test_1_1conf_1_1_adaptive_conf_repo_manager.html" title="ADAPTIVECONFREPOMANAGER is a simplistic extension of AdaptiveConfRepoManager that injects a configura..." alt="" coords="1478,201,1663,243"/>
+<area shape="rect" id="node21" href="$classmxberry_1_1conf_1_1test_1_1_versioned_conf_repo_manager_test.html" title="mxberry::conf::test\l::VersionedConfRepoManagerTest" alt="" coords="1461,443,1680,484"/>
+<area shape="rect" id="node23" href="$classmxberry_1_1conf_1_1test_1_1_conf_repo_mgr_upd.html" title="mxberry::conf::test\l::ConfRepoMgrUpd" alt="" coords="1505,364,1636,405"/>
+<area shape="rect" id="node29" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_handle_object_cloner_adv.html" title="mxberry::core::obj\l::test::HandleObjectClonerAdv" alt="" coords="657,260,853,301"/>
+<area shape="rect" id="node30" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_handle_object_cloner_tricky_count.html" title="mxberry::core::obj\l::test::HandleObjectCloner\lTrickyCount" alt="" coords="668,179,843,235"/>
+<area shape="rect" id="node33" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_static_prop_storage.html" title="mxberry::core::obj\l::test::StaticPropStorage" alt="" coords="405,676,572,717"/>
+<area shape="rect" id="node34" href="$classmxberry_1_1core_1_1obj_1_1test_1_1_static_prop_storage2.html" title="mxberry::core::obj\l::test::StaticPropStorage2" alt="" coords="402,741,575,783"/>
+<area shape="rect" id="node35" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_equal_call_counter.html" title="mxberry::core::test\l::aux::EqualCallCounter" alt="" coords="409,807,568,848"/>
+<area shape="rect" id="node36" href="$classmxberry_1_1io_1_1_tmp_data_manager.html" title="TMPDATAMANAGER implements a basic functionality for managing temporary data folders. " alt="" coords="390,507,587,534"/>
+<area shape="rect" id="node38" href="$classmxberry_1_1java_1_1_a_java_static_path_mgr.html" title="mxberry::java::AJavaStatic\lPathMgr" alt="" coords="401,559,576,600"/>
+<area shape="rect" id="node40" href="$classmxberry_1_1log_1_1_data_logger.html" title="DATALOGGER allows to log performance of functions and also save contents of their local variables int..." alt="" coords="405,625,573,651"/>
+<area shape="rect" id="node37" href="$classmxberry_1_1test_1_1_tmp_data_manager.html" title="TMPDATAMANAGER provides a basic functionality for managing temporary data folders, root folder name is determined automatically. " alt="" coords="651,515,860,542"/>
+<area shape="rect" id="node39" href="$classmxberry_1_1selfmnt_1_1_java_static_path_mgr.html" title="mxberry::selfmnt::JavaStatic\lPathMgr" alt="" coords="662,567,849,608"/>
+<area shape="rect" id="node42" href="$classmxberry_1_1core_1_1struct_1_1_struct_change_tracker.html" title="STRUCTCHANGETRACKER keeps a list of structure patches and provide tools for applying them to any arbi..." alt="" coords="954,515,1106,556"/>
+<area shape="rect" id="node49" href="$classmxberry_1_1core_1_1struct_1_1_struct_change_tracker_empty_plug.html" title="STRUCTCHANGETRACKEREMPTYPLUG is an empty impementation of ASTRUCTCHANGETRACKER interface. " alt="" coords="922,580,1138,621"/>
+<area shape="rect" id="node43" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_adv.html" title="mxberry::conf::test\l::StructChangeTrackerAdv" alt="" coords="1219,645,1392,687"/>
+<area shape="rect" id="node44" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_negative.html" title="mxberry::conf::test\l::StructChangeTrackerNegative" alt="" coords="1205,711,1406,752"/>
+<area shape="rect" id="node45" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_no_patches.html" title="mxberry::conf::test\l::StructChangeTrackerNoPatches" alt="" coords="1197,776,1413,817"/>
+<area shape="rect" id="node46" href="$classmxberry_1_1conf_1_1test_1_1_struct_change_tracker_test.html" title="mxberry::conf::test\l::StructChangeTrackerTest" alt="" coords="1217,384,1394,425"/>
+<area shape="rect" id="node47" href="$classmxberry_1_1core_1_1struct_1_1test_1_1_struct_change_tracker_test.html" title="mxberry::core::struct\l::test::StructChangeTrackerTest" alt="" coords="1202,515,1409,556"/>
+<area shape="rect" id="node48" href="$classmxberry_1_1test_1_1conf_1_1_conf_patch_repo.html" title="mxberry::test::conf\l::ConfPatchRepo" alt="" coords="1240,580,1371,621"/>
+<area shape="rect" id="node52" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_comp_entity_redirected.html" title="mxberry::core::test\l::aux::CompEntityRedirected" alt="" coords="394,937,583,979"/>
+<area shape="rect" id="node53" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_sortable_entity_redirected.html" title="mxberry::core::test\l::aux::SortableEntityRedirected" alt="" coords="654,933,857,975"/>
+<area shape="rect" id="node55" href="$classmxberry_1_1core_1_1test_1_1aux_1_1_sortable_entity.html" title="mxberry::core::test\l::aux::SortableEntity" alt="" coords="418,872,559,913"/>
+<area shape="rect" id="node58" href="$classmxberry_1_1dev_1_1prof_1_1_profile_info_detailed.html" title="PROFILEINFODETAILED contains detailed profiling info obtaining during exectution of some code..." alt="" coords="422,1055,555,1096"/>
+<area shape="rect" id="node62" href="$classmxberry_1_1log_1_1log4j_1_1test_1_1_log4j_configurator.html" title="LOG4JCONFIGURATOR implements the Log4jConfigurator abstract class. " alt="" coords="409,1185,569,1227"/>
+<area shape="rect" id="node63" href="$classmxberry_1_1test_1_1log_1_1_log4j_configurator.html" title="LOG4JCONFIGURATOR simplifies log4j configuration, especially when Parallel Computing Toolbox is used..." alt="" coords="423,1120,554,1161"/>
+</map>

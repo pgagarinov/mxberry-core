@@ -1,0 +1,4 @@
+<map id="mxberry::core::cont::ondisk::IOnDiskBranchedStorage" name="mxberry::core::cont::ondisk::IOnDiskBranchedStorage">
+<area shape="rect" id="node4" href="$classmxberry_1_1core_1_1cont_1_1ondisk_1_1_a_hash_map.html" title="DISKBASEDHASHMAP represents a hash map for the arbitrary objects on disk with a high level of persist..." alt="" coords="47,259,187,300"/>
+<area shape="rect" id="node2" href="$classmxberry_1_1core_1_1cont_1_1_i_generic_branched_storage.html" title="mxberry::core::cont\l::IGenericBranchedStorage" alt="" coords="27,80,206,121"/>
+</map>

@@ -5,4 +5,5 @@ python %locDir%prep4doxymat.py %locDir%..\.. %locDir%..\..\..\..\TTD\mxberry-cor
 for /f %%i in ('cd') do set curDir=%%i
 cd %locDir%
 doxygen
+echo "">%locDir%..\..\..\..\docs\.nojekyll
 cd %curDir%

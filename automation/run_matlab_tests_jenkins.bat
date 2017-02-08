@@ -31,3 +31,6 @@ set genericBatScript=%automationDir%\run_matlab_tests.bat
 echo genericBatScript=%genericBatScript%
 set deploymentDir=%automationDir%..\install
 call %genericBatScript% %deploymentDir% mxberry.test.run_tests_remotely %matlabBin% %runMarker% %confName%
+if errorlevel 1 (
+   exit /b %errorlevel%
+)

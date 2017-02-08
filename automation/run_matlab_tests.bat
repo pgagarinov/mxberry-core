@@ -47,3 +47,6 @@ echo just start and close matlab
 call %curDir%run_matlab_cmd.bat %deploymentDir% %matlabBin%
 echo just start matlab and run tests
 call %curDir%run_matlab_cmd.bat %deploymentDir% %matlabBin% "%matlabCmd%"
+if errorlevel 1 (
+   exit /b %errorlevel%
+)

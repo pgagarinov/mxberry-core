@@ -65,9 +65,9 @@ classdef MUnitRemoteTestRunner<handle
                     resultVec=feval(fRun,testPackArgList{:});
                 end
                 %
-                errorFailStr=resultVec.getErrorFailMessage();
+                errorFailStr=getErrorFailMessage(resultVec);
                 errorHyperStr=errorFailStr;
-                isFailed=~resultVec.isPassed();
+                isFailed=~getIsPassed(resultVec);
                 %
                 subjectStr=getMinimalReport(resultVec);
                 %
@@ -188,6 +188,17 @@ classdef MUnitRemoteTestRunner<handle
         end
     end
 end
+function reportStr=getErrorFailMessage(testResVec)
+isEmptyVec=arrayfun(@(x)~isfield(x.Details,'DiagnosticRecord')||...
+    isfield(x.Details,'DiagnosticRecord')&&...
+    isempty(x.Details.DiagnosticRecord),testResVec);
+reportStrList=arrayfun(@(x)x.Details.DiagnosticRecord.Report,...
+    testResVec(~isEmptyVec),'UniformOutput',false);
+reportStr=sprintf('%s\n',reportStrList{:});
+end
+function isPassed=getIsPassed(testResVec)
+isPassed=(sum([testResVec.Failed])+sum([testResVec.Incomplete]))==0;
+end
 function reportStr=getMinimalReport(testResVec)
 nTests=numel(testResVec);
 runTime=sum([testResVec.Duration]);
@@ -197,7 +208,7 @@ nIncomplete=sum([testResVec.Incomplete]);
 msgFormatStr='<< %s >> || TESTS: %d';
 suffixStr=',  RUN TIME(sec.): %.5g';
 %
-if (nErrors==0)&&(nFails)==0
+if (nFails==0)&&(nIncomplete)==0
     prefixStr='PASSED';
     addArgList={};
 else

@@ -9,11 +9,12 @@ import sys
 import warnings
 import shutil
 
-replacements = {
+baseReplacements = {
 '$Author:':'\\author',
 '$Authors:':'\\authors',
 '$Copyright:':'\\copyright',
-'$Date:':'\\date',
+'$Date:':'\\date'}
+additionalReplacements = {
 '> $':'> ',
 '>$':'>',
 '0 $':'0 ',
@@ -36,7 +37,8 @@ replacements = {
 '8$':'8',
 '9 $':'9 ',
 '9$':'9',
-'System Analysis Department$':'System Analysis Department'}
+'System Analysis Department$':'System Analysis Department',
+'\n':'<br>\n'}
 
 if len(sys.argv) >= 3 and len(sys.argv) <= 4:
     rootDir = sys.argv[1]
@@ -75,7 +77,7 @@ if isGarbage:
     if os.path.isdir(garbageDir):
         shutil.rmtree(garbageDir)
 
-def writeComment( curOutFile, commentList, replacementsMap ):
+def writeComment( curOutFile, commentList, baseReplacementsMap, additionalReplacementsMap ):
     COMMENT_HEADER_STATE = 0
     COMMENT_VERBATIM_STATE = 1
     COMMENT_FOOTER_STATE = 2
@@ -84,24 +86,29 @@ def writeComment( curOutFile, commentList, replacementsMap ):
     footerList = []
     commentLineIndent = ''
     curCommentState = COMMENT_HEADER_STATE
+    replacementsMap = baseReplacementsMap.copy()
+    replacementsMap.update(additionalReplacementsMap)
     for commentLine in commentList:
         commentLineStripped = commentLine.lstrip()
         commentLineIndent = commentLine[:len(commentLine)-len(commentLineStripped)]
-        commentLineStripped = commentLineStripped[1:].rstrip()
+        commentLineStripped = commentLineStripped[1:]
         if curCommentState == COMMENT_FOOTER_STATE:
             if len(commentLineStripped) > 1:
                 for src, target in replacementsMap.items():
                     commentLineStripped = commentLineStripped.replace(src, target)
-            footerList.append(commentLineStripped)
+            footerList.append(commentLineStripped.rstrip())
         else:
             if len(commentLineStripped) > 1:
                 isFooter = False
-                for src, target in replacementsMap.items():
+                for src, target in baseReplacementsMap.items():
                     if src in commentLineStripped:
                         isFooter = True
                         commentLineStripped = commentLineStripped.replace(src, target)
                 if isFooter:
                     curCommentState = COMMENT_FOOTER_STATE
+                    for src, target in additionalReplacementsMap.items():
+                        commentLineStripped = commentLineStripped.replace(src, target)
+            commentLineStripped = commentLineStripped.rstrip()
             if curCommentState == COMMENT_HEADER_STATE:
                 if len(commentLineStripped) == 0:
                     curCommentState = COMMENT_VERBATIM_STATE
@@ -213,7 +220,7 @@ for dirpath, dirs, files in os.walk(rootDir):
                                             outfile.write(curLine)
                                         isCommentBeforeFunc = False
                                     else:
-                                        writeComment( outfile, curCommentList, replacements )
+                                        writeComment( outfile, curCommentList, baseReplacements, additionalReplacements )
                                         outfile.write(curHeader+'\n')
                                     outfile.write(line)
                                     curState = OTHER_CODE_STATE
@@ -235,7 +242,7 @@ for dirpath, dirs, files in os.walk(rootDir):
                                     curCommentList.append(line)
                                     curState = COMMENT_COLLECT_STATE
                             else:
-                                writeComment( outfile, curCommentList, replacements )
+                                writeComment( outfile, curCommentList, baseReplacements, additionalReplacements )
                                 outfile.write(curHeader+'\n')
                                 if len(lineStripped) > 0:
                                     if lineStripped.startswith('function') or lineStripped.startswith('classdef'):

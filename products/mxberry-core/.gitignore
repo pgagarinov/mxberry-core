@@ -8,3 +8,5 @@
 +mxberry/+conf/+test/@AdaptiveConfRepoMgrNanVer/confrepo/*
 !+mxberry/+conf/+test/@AdaptiveConfRepoMgrNanVer/confrepo/_templates
 +mxberry/+conf/+test/@ConfigurationRMTest/confrepo
+!+mxberry/+test/+conf/confrepo/_templates
++mxberry/+test/+conf/confrepo/*

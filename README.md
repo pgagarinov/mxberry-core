@@ -16,8 +16,7 @@ scm system integration
         - deep copies
         - comparison
 
-* **Input parameter parsing functions** `mxberry.core.parseparext` and `mxberry.core.parseparams` for easier input parameters parsing
-input parameters checking functions in `mxberry.core.check` package
+* **Input parameter parsing functions** `mxberry.core.parseparext` and `mxberry.core.parseparams` and input parameters checking functions in `mxberry.core.check` package
 * **OOP helper classes**
 
     - **for handle classes**  - `mxberry.core.obj.HandleObjectCloner`
@@ -28,7 +27,7 @@ for handle objects that require such features as
          - support for `ismember` and `unique` operations
 Check out tests in `mxberry.core.obj.test` package for more details
 
-     - **for emulation of static properties** - `mxberry.core.obj.StaticPropStorage` class emulate static properties via persistent variables.
+     - **for emulation of static properties** - `mxberry.core.obj.StaticPropStorage` class emulates static properties via persistent variables.
 Check out tests in `mxberry.core.obj.test` package for more details
 
 * **ismember and unique functions for arbitrary types** - `mxberry.core` package contains a lot of functions with `ismember*` and `unique*`
@@ -41,7 +40,7 @@ Check out tests in `mxberry.core.test.IsMemberTC` test case for more details
 into plain text and hyper text strings.
 * **Useful generic-purpose functions in** `mxberry.core` package, such as 
     - `absrelcompare` for comparing arrays using both relative and absolute tolerances
-    - `getcallername` and `getcallernameext` for generating names of callers
+    - `getcallername` and `getcallernameext` for getting names of callers
     - `throwerror` and `throwwarn` for throwing warnings and exceptions with automatically generated identifiers
 
 * **Helper functions for different built-in types**
@@ -49,7 +48,7 @@ into plain text and hyper text strings.
     -  `mxberry.core.struct` - structures
     -  `mxberry.core.cell` - cells
 
-* **Utility functions for working with filers and directions** are located in `mxberry.io` package. All these functions are implemented
+* **Utility functions for working with files and directions** are located in `mxberry.io` package. All these functions are implemented
 in Java so they are free of filename and path length limit problems on Windows platforms.
 
 * **Java static path management** - `mxberry.java.AJavaStaticPathMgr` class is designed as extendable abstract class

@@ -15,7 +15,7 @@ matlabCmd=$3
 #
 echo ==== $scriptName: `date` Started =====
 #
-if $MATLINQ_RUN_TEST_WITH_DESKTOP
+if $MXBERRY_MLUNITEXT_RUN_TEST_WITH_DESKTOP
 then
 	echo running in Desktop mode
 	matlabArg="-desktop"

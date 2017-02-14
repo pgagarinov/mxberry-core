@@ -35,10 +35,10 @@ echo ===== run_tests_remotely started: %date% %time% =====
 setlocal
 
 set confName=%5
-if defined confName (
-	set matlabCmd=%matlabFunc%('%runMarker%','%confName%')
-) else (
+if "%confName%" == "" (
 	set matlabCmd=%matlabFunc%('%runMarker%')
+) else (
+	set matlabCmd=%matlabFunc%('%runMarker%','%confName%')
 )
 
 SET curDir=%~dp0

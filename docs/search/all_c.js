@@ -9,6 +9,7 @@ var searchData=
   ['deploy',['deploy',['../namespacemxberry_1_1selfmnt_1_1deploy.html',1,'mxberry::selfmnt']]],
   ['dev',['dev',['../namespacemxberry_1_1dev.html',1,'mxberry']]],
   ['git',['git',['../namespacemxberry_1_1dev_1_1scm_1_1git.html',1,'mxberry::dev::scm']]],
+  ['matrixberry_2dcore',['MatrixBerry-Core',['../index.html',1,'']]],
   ['io',['io',['../namespacemxberry_1_1io.html',1,'mxberry']]],
   ['java',['java',['../namespacemxberry_1_1java.html',1,'mxberry']]],
   ['legacy',['legacy',['../namespacemxberry_1_1core_1_1type_1_1legacy.html',1,'mxberry::core::type']]],

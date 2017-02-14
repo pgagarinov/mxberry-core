@@ -66,6 +66,8 @@ example of AJavaStaticPathMgr abstract methods implementation for a deployment o
 
 * **XML serialization and de-serialization of Matlab structures** in `mxberry.xml.xmlformat` package.
 
+Getting started with MatrixBerry-Core is super easy! Simply fork this repository and follow the instructions below. Or, if you'd like to check out what MatrixBerry-Core is capable of, take a look at the [Doxygen documentation](https://pgagarinov.github.io/mxberry-core/).
+
 Getting Started with MatrixBerry-Core
 ------------------------------
 
@@ -100,6 +102,12 @@ cd install
 ```
 Please keep in mind that if you do not use the start script from `install` subfolder to start Matlab you need to make sure that
 your "Start in" directory is always `mxberry-core/install`. That is because the very first run of `s_install` script creates `javaclasspath.txt` file with absolute paths to some `jar` files that are a part of MatrixBerry-Core library. As part of this very first run the jar files are added to *dynamic Java path of Matlab JVM*. All subsequent Matlab runs with "Start in" directory set to `mxberry-core/install` load the created `javaclasspath.txt` file thus adding the jar files to *static Java path of Matlab JVM*.
+
+Need Help? Found a bug?
+--------------------
+
+[Submit an issue](https://github.com/pgagarinov/mxberry-core/issues) to the MatrixBerry-Core Github if you need any help. And, of course, feel free to submit pull requests with bug fixes or changes.
+
 
 Contributors
 --------------------

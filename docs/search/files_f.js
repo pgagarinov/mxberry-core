@@ -5,7 +5,5 @@ var searchData=
   ['repmat_2em',['repmat.m',['../repmat_8m.html',1,'']]],
   ['rmdir_2em',['rmdir.m',['../rmdir_8m.html',1,'']]],
   ['roundn_2em',['roundn.m',['../roundn_8m.html',1,'']]],
-  ['run_5fpublic_5ftests_2em',['run_public_tests.m',['../run__public__tests_8m.html',1,'']]],
-  ['run_5ftests_2em',['run_tests.m',['../run__tests_8m.html',1,'']]],
   ['run_5ftests_5fremotely_2em',['run_tests_remotely.m',['../run__tests__remotely_8m.html',1,'']]]
 ];

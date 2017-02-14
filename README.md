@@ -1,4 +1,4 @@
-The library was originally developed as a set of auxilary classes and functions for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
+MatrixBerry-Core library was originally developed as a set of auxilary classes and functions for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
 back in 2014. Then in 2016 it was decided to separate the library from "Ellipsoidal Toolbox" so that it can be developed as an independent open-source project.
 
 Right from the begining we have been following Test Driven Development (TTD) approach by implementing and extending a test coverage
@@ -103,4 +103,4 @@ your "Start in" directory is always `mxberry-core/install`. That is because the 
 Contributors
 --------------------
 
-MatrixBerry-Core was built by [Peter Gagarinov](https://www.linkedin.com/in/pgagarinov) and [Ilya Rublev](http://ait.mtas.ru/en/about/personal/roublev.php) while working on [Ellipsoidal Toolbox for Matlab](http://systemanalysisdpt-cmc-msu.github.io/ellipsoids/) at Computation Mathematics and Cybernetics Faculty of Lomonosov Moscow State University, System Analysis Department.
+MatrixBerry-Core was built by [Peter Gagarinov](https://www.linkedin.com/in/pgagarinov) and [Ilya Rublev](http://ait.mtas.ru/en/about/personal/roublev.php) while working on [Ellipsoidal Toolbox for Matlab](http://systemanalysisdpt-cmc-msu.github.io/ellipsoids/) at [Computation Mathematics and Cybernetics Faculty of Lomonosov Moscow State University, System Analysis Department](http://sa.cs.msu.su/).

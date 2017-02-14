@@ -1,4 +1,6 @@
-MatrixBerry-Core library was originally developed as a set of auxilary classes and functions for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
+MatrixBerry-Core
+------------
+library was originally developed as a set of auxilary classes and functions for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
 back in 2014. Then in 2016 it was decided to separate the library from "Ellipsoidal Toolbox" so that it can be developed as an independent open-source project.
 
 Right from the begining we have been following Test Driven Development (TTD) approach by implementing and extending a test coverage
@@ -48,7 +50,7 @@ into plain text and hyper text strings.
     -  `mxberry.core.struct` - structures
     -  `mxberry.core.cell` - cells
 
-* **Utility functions for working with files and directions** are located in `mxberry.io` package. All these functions are implemented
+* **Utility functions for working with files and directories** are located in `mxberry.io` package. All these functions are implemented
 in Java so they are free of filename and path length limit problems on Windows platforms.
 
 * **Java static path management** - `mxberry.java.AJavaStaticPathMgr` class is designed as extendable abstract class

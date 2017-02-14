@@ -1,5 +1,5 @@
-The library was originally developed as an auxilary library for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
-back in 2014. In 2016 it was decided to extract the library from "Ellipsoidal Toolbox" so that it can be developed as a separate and independent open-source project.
+The library was originally developed as a set of auxilary classes and functions for [Ellipsodal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids) project 
+back in 2014. Then in 2016 it was decided to separate the library from "Ellipsoidal Toolbox" so that it can be developed as an independent open-source project.
 
 Right from the begining we have been following Test Driven Development (TTD) approach by implementing and extending a test coverage
 for most of the library functions. Our ideology is to cover every new feature with meanigful tests and every bug found - with negative tests.
@@ -99,3 +99,8 @@ cd install
 ```
 Please keep in mind that if you do not use the start script from `install` subfolder to start Matlab you need to make sure that
 your "Start in" directory is always `mxberry-core/install`. That is because the very first run of `s_install` script creates `javaclasspath.txt` file with absolute paths to some `jar` files that are a part of MatrixBerry-Core library. As part of this very first run the jar files are added to *dynamic Java path of Matlab JVM*. All subsequent Matlab runs with "Start in" directory set to `mxberry-core/install` load the created `javaclasspath.txt` file thus adding the jar files to *static Java path of Matlab JVM*.
+
+Contributors
+--------------------
+
+MatrixBerry-Core was built by [Peter Gagarinov](https://www.linkedin.com/in/pgagarinov) and [Ilya Rublev](http://ait.mtas.ru/en/about/personal/roublev.php) while working on [Ellipsoidal Toolbox for Matlab](https://github.com/SystemAnalysisDpt-CMC-MSU/ellipsoids).

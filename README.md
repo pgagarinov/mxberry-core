@@ -39,16 +39,13 @@ Check out tests in `mxberry.core.test.IsMemberTC` test case for more details
 
 * **Easier Matlab exceptions handling** - `mxberry.core.MExceptionUtils` class provides methods for converting Matlab exceptions
 into plain text and hyper text strings.
-* **Useful generic-purpose functions in** - `mxberry.core` package, such as 
-`absrelcompare` for comparing arrays using both relative and absolute tolerances
-`getcallername` and `getcallernameext` for generating names of callers
-`throwerror` and `throwwarn` for throwing warnings and exceptions with automatically
-generated identifiers
-
-and a few others
+* **Useful generic-purpose functions in** `mxberry.core` package, such as 
+    - `absrelcompare` for comparing arrays using both relative and absolute tolerances
+    - `getcallername` and `getcallernameext` for generating names of callers
+    - `throwerror` and `throwwarn` for throwing warnings and exceptions with automatically generated identifiers
 
 * **Helper functions for different built-in types**
-    -  `mxberry.core.string` - woring with strings
+    -  `mxberry.core.string` - working with strings
     -  `mxberry.core.struct` - structures
     -  `mxberry.core.cell` - cells
 
@@ -67,3 +64,38 @@ example of AJavaStaticPathMgr abstract methods implementation for a deployment o
     - names and parameters of all network interfaces
 
 * **XML serialization and de-serialization of Matlab structures** in `mxberry.xml.xmlformat` package.
+
+Getting Started with MatrixBerry-Core
+------------------------------
+
+### Prerequisites
+
+You're going to need:
+
+ - **Matlab, version 2015b or newer** — older versions may work, but are unsupported.
+
+### Getting Set Up
+
+1. Fork this repository on Github.
+2. Clone *your forked repository* (not our original one) to your hard drive with 
+
+```shell
+git clone https://github.com/YOURUSERNAME/mxberry-core.git
+```
+
+3. `cd mxberry-core`
+4. Start Matlab and make sure to run `s_install` script from `install` subfolder. You can do this either manually from Matlab command line or via a shell script for a specific Matlab version in `install` subfolder.
+
+```matlab
+# either run this from within Matlab
+cd install;
+s_install;
+```
+
+```shell
+# OR run this from shell 
+cd install
+./start_matlab2016b_glnxa64.sh #for windows platform use a bat script
+```
+Please keep in mind that if you do not use the start script from `install` subfolder to start Matlab you need to make sure that
+your "Start in" directory is always `mxberry-core/install`. That is because the very first run of `s_install` script creates `javaclasspath.txt` file with absolute paths to some `jar` files that are a part of MatrixBerry-Core library. As part of this very first run the jar files are added to *dynamic Java path of Matlab JVM*. All subsequent Matlab runs with "Start in" directory set to `mxberry-core/install` load the created `javaclasspath.txt` file thus adding the jar files to *static Java path of Matlab JVM*.

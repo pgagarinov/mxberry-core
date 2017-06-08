@@ -25,7 +25,8 @@ classdef TmpDataManager<mxberry.core.obj.StaticPropStorage
             % Output:
             %   resDir: char[1,] - resulting directory name
             %
-            %            % $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
+            %
+            % $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
             % $Copyright: 2015-2016 Peter Gagarinov, PhD
             %             2015 Moscow State University
             %            Faculty of Computational Mathematics and Computer Science
@@ -64,7 +65,7 @@ classdef TmpDataManager<mxberry.core.obj.StaticPropStorage
             [rootDir,isThere]=...
                 mxberry.io.TmpDataManager.getPropInternal('rootDir',true);
             if ~isThere
-                mxberry.io.TmpDataManager.setDefaultRootDir();
+                rootDir=mxberry.io.TmpDataManager.setDefaultRootDir();
             end
             curTaskName=mxberry.system.getpidhost();
             keyDirName=mxberry.core.hash({curTaskName,keyName});
@@ -138,7 +139,7 @@ classdef TmpDataManager<mxberry.core.obj.StaticPropStorage
             mxberry.core.obj.StaticPropStorage.setPropInternal(...
                 branchName,propName,propVal);
         end
-        function setDefaultRootDir()
+        function tmpDirName=setDefaultRootDir()
             tmpDirName=tempdir;
             if strcmpi(tmpDirName(end),filesep)
                 tmpDirName(end)=[];

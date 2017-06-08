@@ -23,6 +23,8 @@ classdef DeploymentMgr
             savepath([installDir,filesep,'pathdef.m']);            
             %% Configure logging 
             mxberry.log.log4j.Log4jConfigurator.configureSimply();
+            %% Configure temporary directories
+            mxberry.test.TmpDataManager.setRootDir();
         end
     end
     methods (Access=protected)

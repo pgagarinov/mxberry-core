@@ -1,1 +1,0 @@
-call %~dp0start_matlab2016b_win32 false

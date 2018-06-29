@@ -33,7 +33,8 @@ function checkvar(x,typeSpec,varargin)
 %
 %   mxberry.core.checkvar([1,2],'iscol(x)','myVar',...
 %       'errorTag','wrongInput:badType','errorMessage','Type is wrong')
-%% $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
+%
+% $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
 % $Copyright: 2015-2016 Peter Gagarinov, PhD
 %             2015 Moscow State University,
 %            Faculty of Computational Mathematics and Computer Science,

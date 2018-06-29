@@ -10,11 +10,8 @@ function [htmlOut,fullFileNameList,reportList]=...
     patternToExclude);
 [~,fileList]=cellfun(@fileparts,fullFileNameList,'UniformOutput',false);
 %
-%
 SHtmlProxyReportVec = [];
-name='';
-reportName = getString(message(...
-    'MATLAB:codetools:reports:CodeAnalyzerReportName'));
+reportName = 'MLint-MXBerry Code Analyzer Report';
 %
 nFiles=numel(fullFileNameList);
 for iFile = 1:nFiles
@@ -51,25 +48,14 @@ end
 %
 % Limit the number of messages displayed to keep from being overwhelmed by
 % large pathological files.
-displayLimit = 500;
+DISPLAY_LIMIT = 500;
 %
 % Now generate the HTML
-help = [getString(message('MATLAB:codetools:reports:MLintReportDescription')) ' '];
-doc = 'matlab_env_mlint';
 dirListExpr=mxberry.core.cell.cellstr2expression(dirList);
 rerunAction = sprintf(...
     'mxberry.dev.MLintScanner.scanWithHtmlReport(%s,''%s'')',...
     dirListExpr,patternToExclude);
-runOnThisDirAction = 'mlintrpt';
-s = internal.matlab.codetools.reports.makeReportHeader(reportName, ...
-    help, doc, rerunAction, runOnThisDirAction);
-
-s{end+1} = '<p>';
-%
-s{end+1} = getString(message(...
-    'MATLAB:codetools:reports:ReportForSpecificFolder',name));
-%
-s{end+1} = '<p>';
+s = makeReportHeader(reportName, rerunAction);
 %
 s{end+1} = '<table cellspacing="0" cellpadding="2" border="0">';
 for n = 1:length(SHtmlProxyReportVec)
@@ -86,31 +72,24 @@ for n = 1:length(SHtmlProxyReportVec)
     s{end+1} = sprintf('</span> </a> </br>');
     %
     if isempty(SHtmlProxyReportVec(n).lineNumber)
-        msgStr = ['<span class="soft">' getString(...
-            message('MATLAB:codetools:reports:NoMessages')) '</span>'];
+        msgStr = '<span class="soft"> No Messages </span>';
     elseif length(SHtmlProxyReportVec(n).lineNumber)==1
-        msgStr = ['<span class="warning">' getString(...
-            message('MATLAB:codetools:reports:OneMessage')) '</span>'];
-    elseif length(SHtmlProxyReportVec(n).lineNumber) < displayLimit
-        msgStr = ['<span class="warning">' getString(...
-            message('MATLAB:codetools:reports:SpecifiedNumberOfMessages',...
-            length(SHtmlProxyReportVec(n).lineNumber))) '</span>'];
+        msgStr = '<span class="warning"> 1 message </span>';
+    elseif length(SHtmlProxyReportVec(n).lineNumber) < DISPLAY_LIMIT
+        msgStr = ['<span class="warning">',...
+            sprintf('%d messages',length(SHtmlProxyReportVec(n).lineNumber)),...
+             '</span>'];
     else
         % Truncate the list of messages if there are too many.
-        msgStr = ['<span class="warning">' ...
-            getString(...
-            message('MATLAB:codetools:reports:SpecifiedNumberOfMessages',...
-            length(SHtmlProxyReportVec(n).lineNumber))) ...
+        msgStr = ['<span class="warning">',...
+            sprintf('%d messages',length(SHtmlProxyReportVec(n).lineNumber)), ...
             '\n<br/>'  ...
-            getString(...
-            message('MATLAB:codetools:reports:ShowingOnlyFirstAmountOfMessages',...
-            displayLimit)) ...
-            '</span>'];
+            sprintf('Showing only first %d',DISPLAY_LIMIT),'</span>'];
     end
     s{end+1} = sprintf('%s</td><td valign="top" class="td-linetopleft">',msgStr);
     %
     if ~isempty(SHtmlProxyReportVec(n).lineNumber)
-        for m = 1:min(length(SHtmlProxyReportVec(n).lineNumber),displayLimit)
+        for m = 1:min(length(SHtmlProxyReportVec(n).lineNumber),DISPLAY_LIMIT)
             
             openMessageLine = sprintf('opentoline(''%s'',%d)',...
                 decodedFileName, SHtmlProxyReportVec(n).lineNumber(m));
@@ -138,4 +117,40 @@ if nargout==0
 else
     htmlOut = s;
 end
+end
+function htmlOut = makeReportHeader( reportName,rerunAction)
+htmlOut = {};
+
+%% XML information
+h1 = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
+h2 = '<html xmlns="http://www.w3.org/1999/xhtml">';
+encoding = 'UTF-8';
+h3 = sprintf('<head><meta http-equiv="Content-Type" content="text/html; charset=%s" />',encoding);
+%% Add cascading style sheet link
+reportdir = fullfile(matlabroot,'toolbox','matlab','codetools','+internal','+matlab','+codetools','+reports');
+cssfile = fullfile(reportdir,'matlab-report-styles.css');
+h4 = sprintf('<link rel="stylesheet" href="file:///%s" type="text/css" />', cssfile);
+
+jsfile = fullfile(reportdir,'matlabreports.js');
+h5 = sprintf('<script type="text/javascript" language="JavaScript" src="file:///%s"></script>',jsfile);
+
+%% HTML header
+htmlOut{1} = [h1 h2 h3 h4 h5];
+
+htmlOut{2} = sprintf('<title>%s</title>', reportName);
+htmlOut{3} = '</head>';
+htmlOut{4} = '<body>';
+htmlOut{5} = sprintf('<div class="report-head">%s</div><p>', reportName);
+
+
+%% Descriptive text
+htmlOut{end+1} = '<table border="0"><tr>';
+htmlOut{end+1} = '<td>';
+htmlOut{end+1} = sprintf('<input type="button" value="%s" id="rerunThisReport" onclick="runreport(''%s'');" />',...
+'Rerun This Report', escape(rerunAction));
+    htmlOut{end+1} = '</td>';
+end
+function escapedAction = escape(action)
+    escapedAction = regexprep(action,'[\\'']','\\$0');
+    char(com.mathworks.mlwidgets.html.HTMLUtils.encodeUrl(escapedAction));
 end

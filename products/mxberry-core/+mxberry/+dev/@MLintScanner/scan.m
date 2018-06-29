@@ -22,10 +22,8 @@ end
 end
 %
 function [reportList,localFilenames]=scanDir(dirName)
-reportName = getString(message(...
-    'MATLAB:codetools:reports:CodeAnalyzerReportName'));
-fileList = internal.matlab.codetools.reports.matlabFiles(dirName,...
-    reportName);
+dirFileList = what(dirName);
+fileList = sort([dirFileList.m]);
 localFilenames = strcat(dirName,filesep,fileList);
 reportList=mlint(localFilenames,'-struct');
 %

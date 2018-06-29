@@ -4,7 +4,7 @@ classdef TmpDataManager<mxberry.io.TmpDataManager
     %
     methods (Static)
         function setRootDir()
-            ANCHOR_FILE_NAME='mxberry.test.run_public_tests';
+            ANCHOR_FILE_NAME=mfilename('class');
             curFilePath=which(ANCHOR_FILE_NAME);
             if isempty(curFilePath)
                 mxberry.core.throwerror('anchorNotFound',...
@@ -29,7 +29,8 @@ classdef TmpDataManager<mxberry.io.TmpDataManager
             % Output:
             %   resDir: char[1,] - resulting directory name
             %
-            %            % $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
+            %
+            % $Author: Peter Gagarinov, PhD <pgagarinov@gmail.com> $
             % $Copyright: 2015-2016 Peter Gagarinov, PhD
             %             2015 Moscow State University
             %            Faculty of Computational Mathematics and Computer Science

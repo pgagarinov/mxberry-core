@@ -88,7 +88,7 @@ classdef NestedArrayType<mxberry.core.type.ANestedArrayType
         function isPositive=isContainedInCellType(self)
             isPositive=self.typeInfo.depth>0;
         end
-        function isPositive=isCellTypeContained(self) %#ok<MANU>
+        function isPositive=isCellTypeContained(~)
             isPositive=false;
         end
         function SRes=struct(self)

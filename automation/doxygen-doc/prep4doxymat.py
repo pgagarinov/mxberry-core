@@ -91,7 +91,7 @@ def writeComment( curOutFile, commentList, baseReplacementsMap, additionalReplac
     for commentLine in commentList:
         commentLineStripped = commentLine.lstrip()
         commentLineIndent = commentLine[:len(commentLine)-len(commentLineStripped)]
-        commentLineStripped = commentLineStripped[1:]
+        commentLineStripped = commentLineStripped[1:].replace('...','. . .')
         if curCommentState == COMMENT_FOOTER_STATE:
             if len(commentLineStripped) > 1:
                 for src, target in replacementsMap.items():

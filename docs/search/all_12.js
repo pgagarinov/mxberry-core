@@ -235,6 +235,7 @@ var searchData=
   ['throwcannotdetermineifincludedintoexception',['throwCannotDetermineIfIncludedIntoException',['../classmxberry_1_1core_1_1type_1_1_a_nested_array_type.html#a47d0687cac0b7f0b348775218097bd62',1,'mxberry::core::type::ANestedArrayType']]],
   ['throwerror',['throwerror',['../namespacemxberry_1_1core.html#a0418f02bf5876d905979cce7b8fdf7ae',1,'mxberry::core']]],
   ['throwerror_2em',['throwerror.m',['../throwerror_8m.html',1,'']]],
+  ['throwwarn',['throwwarn',['../namespacemxberry_1_1core.html#a3b090faaa1a74ef0c6658887178cb03d',1,'mxberry::core']]],
   ['throwwarn_2em',['throwwarn.m',['../throwwarn_8m.html',1,'']]],
   ['tic',['tic',['../classmxberry_1_1dev_1_1prof_1_1_profile_info.html#ada64c9a4d27e1a7e1e58db32c8ddc3f5',1,'mxberry::dev::prof::ProfileInfo::tic()'],['../classmxberry_1_1dev_1_1prof_1_1_profile_info_detailed.html#af451136a5a86ed1ebb20d0fce58279eb',1,'mxberry::dev::prof::ProfileInfoDetailed::tic()']]],
   ['tmpdatamanager',['TmpDataManager',['../classmxberry_1_1io_1_1_tmp_data_manager.html',1,'mxberry::io::TmpDataManager'],['../classmxberry_1_1test_1_1_tmp_data_manager.html',1,'mxberry::test::TmpDataManager']]],

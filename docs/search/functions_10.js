@@ -23,7 +23,7 @@ var searchData=
   ['run_5ftests_5fremotely',['run_tests_remotely',['../namespacemxberry_1_1test.html#a91127c35afd6b6e8b485f9b040b3679c',1,'mxberry::test']]],
   ['runandcheckerror',['runAndCheckError',['../classmxberry_1_1unittest_1_1_test_case.html#a982b2cf60bebc12139adeaea3b5ff755',1,'mxberry::unittest::TestCase']]],
   ['runandmeasuretime',['runAndMeasureTime',['../classmxberry_1_1unittest_1_1_test_case.html#aea125a326bdab5ba0a982ca9ae5cf35b',1,'mxberry::unittest::TestCase']]],
-  ['runandprocess',['runAndProcess',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#abd916b811d97ef4328cd8f07a427686d',1,'mxberry::dev::prof::ProfileManager::runAndProcess(in self, in fRun, in varargin)'],['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#abd916b811d97ef4328cd8f07a427686d',1,'mxberry::dev::prof::ProfileManager::runAndProcess(in self, in fRun, in varargin)']]],
+  ['runandprocess',['runAndProcess',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#abd916b811d97ef4328cd8f07a427686d',1,'mxberry::dev::prof::ProfileManager']]],
   ['runtestpack',['runTestPack',['../classmxberry_1_1unittest_1_1_m_unit_remote_test_runner.html#adb0eca42f66945dc9bca2fce00e999fc',1,'mxberry::unittest::MUnitRemoteTestRunner']]],
   ['runtestswithconf',['runTestsWithConf',['../classmxberry_1_1unittest_1_1_m_unit_remote_test_runner.html#a5885e2ec3ed690d168cd828b3429f5c9',1,'mxberry::unittest::MUnitRemoteTestRunner']]],
   ['runwithfailure',['runWithFailure',['../classmxberry_1_1xml_1_1test_1_1mlunit__test__xmlloadsave.html#a67c205db91398ddb4c560fba3dcc0ff8',1,'mxberry::xml::test::mlunit_test_xmlloadsave']]]

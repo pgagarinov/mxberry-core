@@ -19,7 +19,7 @@ var searchData=
   ['processpropvalue',['processpropvalue',['../namespacemxberry_1_1core_1_1obj.html#ae2539ab7ce8d91a85656c31201b94d29',1,'mxberry::core::obj']]],
   ['profileinfo',['ProfileInfo',['../classmxberry_1_1dev_1_1prof_1_1_profile_info.html#a19abd4e78f32e3cf5079673d760f5dfb',1,'mxberry::dev::prof::ProfileInfo']]],
   ['profileinfodetailed',['ProfileInfoDetailed',['../classmxberry_1_1dev_1_1prof_1_1_profile_info_detailed.html#a462bece785c4fcb8463e44f345dcf49d',1,'mxberry::dev::prof::ProfileInfoDetailed']]],
-  ['profilemanager',['ProfileManager',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#aacb6b72ae5863132682a059fca836659',1,'mxberry::dev::prof::ProfileManager::ProfileManager(in profMode, in profDir)'],['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#aacb6b72ae5863132682a059fca836659',1,'mxberry::dev::prof::ProfileManager::ProfileManager(in profMode, in profDir)']]],
+  ['profilemanager',['ProfileManager',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#aacb6b72ae5863132682a059fca836659',1,'mxberry::dev::prof::ProfileManager']]],
   ['profsave',['profSave',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#a0a9be0f56785a41e7a6182750014ec37',1,'mxberry::dev::prof::ProfileManager']]],
   ['profview',['profView',['../classmxberry_1_1dev_1_1prof_1_1_profile_manager.html#abb4d6eb5eff0fb1120e507cadb0268e7',1,'mxberry::dev::prof::ProfileManager']]],
   ['prop',['prop',['../classmxberry_1_1log_1_1_data_logger.html#abdccc8a5b0a474cfbf33abb850eba7e9',1,'mxberry::log::DataLogger']]],
